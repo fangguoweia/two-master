@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.bwie.jd.ui.WebViewActivity">
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/web_btn_gouwu"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="60dp"
+                android:background="#FF9600"
+                android:text="进入购物车"/>
+            <Button
+                android:id="@+id/web_btn_add"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="60dp"
+                android:background="#FFFF0004"
+                android:text="加入购物车"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
